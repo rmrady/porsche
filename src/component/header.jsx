@@ -13,12 +13,12 @@ export default function Headers() {
                         <i class="bi bi-list"></i>
                         <p>Menu</p>
                     </div>
-                    <p className='text-[30px]'>PORSCHE</p>
+                    <p className='text-[20px] lg:text-[30px]'>PORSCHE</p>
                     <i className="bi bi-person text-[20px]"></i>
                 </div>
             </div>
-            <div className='text-[90px] text-white absolute bottom-52 px-32'>01/25/2024</div>
-            <button className=' absolute bottom-40  text-white border border-white px-6 py-3 mx-32'>Electrify Now</button>
+            <div className='text-[40px] lg:text-[90px] text-white absolute bottom-52 px-20 lg:px-32'>01/25/2024</div>
+            <button className=' absolute bottom-40  text-white border border-white px-6 py-3 mx-20 lg:mx-32'>Electrify Now</button>
         </header>
     )
 }
