@@ -1,4 +1,6 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import '../swiper.css';
 import '../App.css'
 import imge1 from '../assets/img/imge1.avif'
 import imge2 from '../assets/img/imge2.avif'
@@ -11,6 +13,16 @@ import imge8 from '../assets/img/section2-5.avif'
 import imge9 from '../assets/img/section2-6.avif'
 import imge3_1 from '../assets/img/section3-1.avif'
 import imge3_2 from '../assets/img/section3-2.avif'
+import imge3_3 from '../assets/img/section3-3.avif'
+import imge3_4 from '../assets/img/section3-4.avif'
+import imge3_5 from '../assets/img/section3-5.avif'
+import imge3_6 from '../assets/img/section3-6.avif'
+import imge3_7 from '../assets/img/section3-7.avif'
+import imge3_8 from '../assets/img/section3-8.avif'
+import imge3_9 from '../assets/img/section3-9.avif'
+import imge3_10 from '../assets/img/section3-10.avif'
+import imge3_11 from '../assets/img/section3-11.avif'
+import imge3_12 from '../assets/img/section3-12.avif'
 
 export default function Section() {
   return (
@@ -82,8 +94,8 @@ export default function Section() {
               </div>
             </div>
           </div>
-           {/* box3 */}
-           <div className=' w-[100%] lg:flex justify-center mt-10 ml-14 lg:ml-0'>
+          {/* box3 */}
+          <div className=' w-[100%] lg:flex justify-center mt-10 ml-14 lg:ml-0'>
             <div className='w-[80%] lg:w-[40%]  relative overflow-hidden rounded-2xl mt-5 lg:mr-10 '>
               <img className='w-[100%]' src={imge8} alt="" />
               <p className='text-white text-[25px] absolute top-5 font-black  font-sans pl-10'>Masan</p>
@@ -128,7 +140,157 @@ export default function Section() {
           <p className='text-[14px] mt-10'> Enter a location for your search</p>
         </div >
         <img className='lg:w-[50%] lg:mt-20' src={imge3_2} alt="" />
-        
+
+      </div>
+      {/* section5 */}
+      <div className=' h-[600px] flex flex-col items-center cursor-pointer  mt-10'>
+        <h2 className='text-[40px] font-bold'>Online Shop Highlights</h2>
+        {/* rsponsive md-------------- */}
+        <div className='w-[90%] h-[300px] mb-20 mt-10 text-center md:hidden'>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl mt-5' src={imge3_3} alt="" />
+                <h2 className='font-bold mt-3'>Porsche Wall Charger Connect</h2>
+                <p className='text-[14px] mt-3'>An easy charging solution for your home.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Charger</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_4} alt="" />
+                <h2 className='font-bold mt-3'>Porsche x Garmin® Epix smartwatch</h2>
+                <p className='text-[14px] mt-3'>GPS multisport smartwatch with unique Porsche details.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>smartwatch</p>
+              </div>
+            </SwiperSlide>
+
+
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_5} alt="" />
+                <h2 className='font-bold mt-3'>Porsche eBike Cross Performance</h2>
+                <p className='text-[14px] mt-3'>High-performance electric mountain bike from Porsche.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>eBike</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_6} alt="" />
+
+                <h2 className='font-bold mt-3'>Golf Cartbag – Sport</h2>
+                <p className='text-[14px] mt-3'>Spacious cart bag made of waterproof nylon with padded shoulder strap and lined inner pocket.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Cartbag</p>
+
+
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_7} alt="" />
+                <h2 className='font-bold mt-3'>Wheel rim wall clock – Porsche Originals</h2>
+                <p className='text-[14px] mt-3'>Wall clock made from the original rim of a 911 in RS Spyder design..</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>clock</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_8} alt="" />
+                <h2 className='font-bold mt-3'>Porsche Poster Set – The Porsche Jump</h2>
+                <p className='text-[14px] mt-3'>Powerful motifs and high-quality printing: the limited-edition poster sets portray various Porsche models.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>PosterSet</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_9} alt="" />
+                <h2 className='font-bold mt-3'>Barrel seat – Porsche Penske Motorsport</h2>
+                <p className='text-[14px] mt-3'>Stylish Porsche barrel seat with high-quality film wrapping. Suitable for indoor and outdoor use.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Barrelseat</p>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
+        {/* rsponsive lg-------------- */}
+        <div className=' hidden md:block w-[90%] h-[300px]  mb-20 mt-10'>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={4}
+
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl mt-5' src={imge3_3} alt="" />
+                <h2 className='font-bold mt-3'>Porsche Wall Charger Connect</h2>
+                <p className='text-[14px] mt-3'>An easy charging solution for your home.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Charger</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_4} alt="" />
+                <h2 className='font-bold mt-3'>Porsche x Garmin® Epix smartwatch</h2>
+                <p className='text-[14px] mt-3'>GPS multisport smartwatch with unique Porsche details.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>smartwatch</p>
+              </div>
+            </SwiperSlide>
+
+
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_5} alt="" />
+                <h2 className='font-bold mt-3'>Porsche eBike Cross Performance</h2>
+                <p className='text-[14px] mt-3'>High-performance electric mountain bike from Porsche.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>eBike</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_6} alt="" />
+
+                <h2 className='font-bold mt-3'>Golf Cartbag – Sport</h2>
+                <p className='text-[14px] mt-3'>Spacious cart bag made of waterproof nylon with padded shoulder strap and lined inner pocket.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Cartbag</p>
+
+
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_7} alt="" />
+                <h2 className='font-bold mt-3'>Wheel rim wall clock – Porsche Originals</h2>
+                <p className='text-[14px] mt-3'>Wall clock made from the original rim of a 911 in RS Spyder design..</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>clock</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_8} alt="" />
+                <h2 className='font-bold mt-3'>Porsche Poster Set – The Porsche Jump</h2>
+                <p className='text-[14px] mt-3'>Powerful motifs and high-quality printing: the limited-edition poster sets portray various Porsche models.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>PosterSet</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <img className='w-[100%] rounded-xl' src={imge3_9} alt="" />
+                <h2 className='font-bold mt-3'>Barrel seat – Porsche Penske Motorsport</h2>
+                <p className='text-[14px] mt-3'>Stylish Porsche barrel seat with high-quality film wrapping. Suitable for indoor and outdoor use.</p>
+                <p className=' mt-3'><i class="bi bi-arrow-right"></i>Barrelseat</p>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
       </div>
 
     </section>
