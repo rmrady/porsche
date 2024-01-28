@@ -1,14 +1,3 @@
-.img1{
-    position: relative;
-    overflow: hidden;
-}
-.img1 img{
-    position: absolute;
-    transition: all 200ms linear 0s;
-}
-.img1 img:hover{
-    transform: scale(1.1);
-}
 
 .transitionR{
     transition: all 200ms linear 0s;
