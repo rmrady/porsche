@@ -10,6 +10,7 @@ import imge7 from '../assets/img/section2-4.avif'
 import imge8 from '../assets/img/section2-5.avif'
 import imge9 from '../assets/img/section2-6.avif'
 import imge3_1 from '../assets/img/section3-1.avif'
+import imge3_2 from '../assets/img/section3-2.avif'
 
 export default function Section() {
   return (
@@ -106,19 +107,28 @@ export default function Section() {
             </div>
           </div>
         </div>
-        <p className='text-[13px] text-gray-400  mt-4'>*Manufacturer’s Suggested Retail Price. Excludes options; taxes; title; registration; delivery, processing and handling fee; dealer charges. Dealer sets actual selling price.</p>
+        <p className='w-[50%] lg:w-[60%] text-[13px] text-gray-400  mt-4'>*Manufacturer’s Suggested Retail Price. Excludes options; taxes; title; registration; delivery, processing and handling fee; dealer charges. Dealer sets actual selling price.</p>
       </div>
       {/* section3 */}
       <div className='w-[100%]  my-20'>
         <div className='w-[100%] h-[400px] flex justify-center'>
           <div className='w-[30%] rounded-s-2xl bg-black text-white flex flex-col items-center justify-center'>
-            <p className='text-[30px] font-bold '>Find Your Porsche Center</p>
+            <p className='text-[20px] lg:text-[30px] font-bold '>Find Your Porsche Center</p>
             <p className='w-[70%] text-[14px] mt-3'>A Porsche Center, and your dream Porsche vehicle, may be closer than you think. Search our Porsche Center network for the location closest to you.</p>
             <button className='px-10 py-3 bg-white text-black rounded-lg mt-5'>Search now</button>
           </div>
           <img className='w-[50%] rounded-e-2xl' src={imge3_1} alt="" />
         </div>
-
+      </div>
+      {/* section4 */}
+      <div className='w-full lg:flex '>
+        <div className='lg:w-[50%] flex flex-col justify-center ml-44'>
+          <h2 className='w-[70%] text-[30px] font-bold'>find your new or pre-owned Porsche</h2>
+          <p className='w-[70%]  text-[14px] mt-4'>Making it easy to find your dream Porsche. Enter your location and browse the best car offers available near you.</p>
+          <p className='text-[14px] mt-10'> Enter a location for your search</p>
+        </div >
+        <img className='lg:w-[50%] lg:mt-20' src={imge3_2} alt="" />
+        
       </div>
 
     </section>
