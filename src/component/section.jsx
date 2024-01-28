@@ -292,6 +292,22 @@ export default function Section() {
         </div>
 
       </div>
+      {/* section6 */}
+      <h2 className='text-[40px] font-bold text-center my-10'>Discover</h2>
+      <div className='w-[100%] lg:flex  justify-center relative mt-20 ml-14 lg:ml-0  '>
+        <div className='w-[80%] md:w-[70%] xl:w-[23%] relative mt-5'>
+          <img className='w-[100%] rounded-xl' src={imge3_10} alt="" />
+          <p className=' absolute bottom-5 pl-5 text-white text-[19px] font-bold'>Travel & Experience<i className="bi bi-arrow-right pl-5"></i></p>
+        </div>
+        <div className='w-[80%] md:w-[70%] xl:w-[23%]  rounded-xl relative lg:mx-10 mt-5 '>
+          <img className='w-[100%] rounded-xl ' src={imge3_11} alt="" />
+          <p className=' absolute bottom-5 pl-5 text-white text-[19px] font-bold'>Porsche Approved<i className="bi bi-arrow-right pl-3"></i></p>
+        </div>
+        <div className='w-[80%] md:w-[70%] xl:w-[23%]  rounded-xl relative mt-5 '>
+          <img className='w-[100%] rounded-xl' src={imge3_12} alt="" />
+          <p className=' absolute bottom-5 pl-5 text-white text-[19px] font-bold'>Motorsport Experience<i className="bi bi-arrow-right pl-3"></i></p>
+        </div>
+      </div>
 
     </section>
   )
