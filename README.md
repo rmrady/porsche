@@ -19,8 +19,8 @@ Find Your Porsche Center
 
  ## About The Project
 
-![Product Screenshot](src/assets/img/demo.png)
-<img src="src/assets/img/demo.png" alt="header" width="100" height="100">
+![Product Screenshot](src/assets/img/imge1.avif)
+
 
 find your new or pre-owned Porsche in website
 Making it easy to find your dream Porsche. Enter your location and browse the best car offers available near you.
