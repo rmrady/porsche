@@ -19,7 +19,7 @@ Find Your Porsche Center
 
  ## About The Project
 
-![Product Screenshot](src/assets/img/imge1.avif)
+![Product Screenshot](src/assets/img/section2-4.avif)
 
 
 find your new or pre-owned Porsche in website
